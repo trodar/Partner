@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_publications">
+        <item quantity="one">%1$d Публикация</item>
+        <item quantity="few">%1$d Публикации</item>
+        <item quantity="many">%1$d Публикаций</item>
+        <item quantity="other">%1$d Публикаций</item>
+    </plurals>
+    <plurals name="plurals_return">
+        <item quantity="one">%1$d Повторное</item>
+        <item quantity="few">%1$d Повторных</item>
+        <item quantity="many">%1$d Повторныхs</item>
+        <item quantity="other">%1$d Повторных</item>
+    </plurals>
+    <plurals name="plurals_study">
+        <item quantity="one">%1$d Изучение</item>
+        <item quantity="few">%1$d Изучения</item>
+        <item quantity="many">%1$d Изучений</item>
+        <item quantity="other">%1$d Изучений</item>
+    </plurals>
+    <plurals name="plurals_video">
+        <item quantity="one">%1$d Показ видео</item>
+        <item quantity="few">%1$d Показа видео</item>
+        <item quantity="many">%1$d Показов видео</item>
+        <item quantity="other">%1$d Показов видео</item>
+    </plurals>
+    <string name="app_name">Partner</string>
+    <string name="bottom_preach">Проповедь</string>
+    <string name="bottom_report">Отчет</string>
+    <string name="bottom_notepad">Блокнот</string>
+    <string name="bottom_area">Участок</string>
+    <string name="serviceHeader">"Время "</string>
+    <string name="serviceDescription">Нажмите, чтобы открыть Partner</string>
+    <string name="preach_publication">Публикации</string>
+    <string name="preach_video">Видео</string>
+    <string name="preach_return">Повторы</string>
+    <string name="preach_study">Изучение</string>
+    <string name="preach_start">Старт</string>
+    <string name="preach_stop">Пауза</string>
+    <string name="preach_resume">Продолжить</string>
+    <string name="preach_finish">Завершить</string>
+    <string name="preach_save">Сохранить</string>
+    <string name="preach_cancel">Отмена</string>
+    <string name="canceled">Отменено</string>
+    <string name="preach_description">напишите описание</string>
+    <string name="preach_saved">Сохранено</string>
+    <string name="report_hours">%1$s часов(а)</string>
+    <string name="report_year_tittle">%s служебный год</string>
+    <string name="preach_deleted">Удалено</string>
+    <string name="simple_preach">"%1s: проповедовал - "</string>
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+    <string name="preached">Проповедовал</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="add">Добавить</string>
+    <string name="new_item">Новый</string>
+    <string name="delete">Удалить</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="import_data">Восстановить все данные</string>
+    <string name="export_data">Сохранить все данные</string>
+    <string name="backup_failed">Ошибка при создании резервной копии</string>
+    <string name="backup_created">Данные сохранены</string>
+    <string name="backup_restore">"Внимание: ВСЕ текущие данные будут безвозвратно утеряны и заменены на данные из резервной копии. "</string>
+    <string name="jwdroid_parse_error">Не удалось проанализировать %1s файл</string>
+    <string name="backup_restored">Данные успешно восстановлены</string>
+    <string name="preach_save_zero">Время меньше одной минуты не сохраняется</string>
+</resources>

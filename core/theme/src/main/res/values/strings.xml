@@ -1,0 +1,67 @@
+<resources>
+    <plurals name="plurals_publications">
+        <item quantity="one">%1$d Publication</item>
+        <item quantity="few">%1$d Publications</item>
+        <item quantity="many">%1$d Publications</item>
+        <item quantity="other">%1$d Publications</item>
+    </plurals>
+    <plurals name="plurals_return">
+        <item quantity="one">%1$d Return visit</item>
+        <item quantity="few">%1$d Return visits</item>
+        <item quantity="many">%1$d Return visits</item>
+        <item quantity="other">%1$d Return visits</item>
+    </plurals>
+    <plurals name="plurals_study">
+        <item quantity="one">%1$d Study</item>
+        <item quantity="few">%1$d Studies</item>
+        <item quantity="many">%1$d Studies</item>
+        <item quantity="other">%1$d Studies</item>
+    </plurals>
+    <plurals name="plurals_video">
+        <item quantity="one">%1$d Video showing</item>
+        <item quantity="few">%1$d Video showings</item>
+        <item quantity="many">%1$d Video showings</item>
+        <item quantity="other">%1$d Video showings</item>
+    </plurals>
+    <string name="app_name" translatable="false">Partner</string>
+    <string name="bottom_preach">Preach</string>
+    <string name="bottom_report">Report</string>
+    <string name="bottom_notepad">Notepad</string>
+    <string name="bottom_area">Territory</string>
+    <string name="serviceHeader">Time</string>
+    <string name="serviceDescription">Click to open Partner</string>
+    <string name="preach_publication">Publications</string>
+    <string name="preach_video">Video</string>
+    <string name="preach_return">Return</string>
+    <string name="preach_study">Study</string>
+    <string name="preach_start">Start</string>
+    <string name="preach_stop">Pause</string>
+    <string name="preach_resume">Resume</string>
+    <string name="preach_finish">Finish</string>
+    <string name="preach_save">Save</string>
+    <string name="preach_cancel">Cancel</string>
+    <string name="canceled">Canceled</string>
+    <string name="preach_description">write a description</string>
+    <string name="preach_saved">Saved</string>
+    <string name="report_hours">%1$s hours</string>
+    <string name="report_year_tittle">%s service year</string>
+    <string name="preach_deleted">Deleted</string>
+    <string name="simple_preach">"%1s: preached - "</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="preached">Preached</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add">Add</string>
+    <string name="new_item">New</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="export_data">Save all data</string>
+    <string name="import_data">Restore all data</string>
+    <string name="backup_failed">Error creating backup copy</string>
+    <string name="backup_created">Backup created</string>
+    <string name="backup_restore">Warning: ALL current data will be permanently lost and replaced with data from the backup.</string>
+    <string name="jwdroid_parse_error">Could not parse %1s XML file</string>
+    <string name="backup_restored">Backup has been successfully restored</string>
+    <string name="preach_save_zero">Time less than one minute is not saved</string>
+</resources>

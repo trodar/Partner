@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_publications">
+        <item quantity="one">%1$d Публікацій</item>
+        <item quantity="few">%1$d Публікації</item>
+        <item quantity="many">%1$d Публікацій</item>
+        <item quantity="other">%1$d Публікацій</item>
+    </plurals>
+    <plurals name="plurals_return">
+        <item quantity="one">%1$d Повторне</item>
+        <item quantity="few">%1$d Повторних</item>
+        <item quantity="many">%1$d Повторних</item>
+        <item quantity="other">%1$d Повторних</item>
+    </plurals>
+    <plurals name="plurals_study">
+        <item quantity="one">%1$d Вивчення</item>
+        <item quantity="few">%1$d Вивчення</item>
+        <item quantity="many">%1$d Вивчень</item>
+        <item quantity="other">%1$d Вивчень</item>
+    </plurals>
+    <plurals name="plurals_video">
+        <item quantity="one">%1$d Показ відео</item>
+        <item quantity="few">%1$d Покази відео</item>
+        <item quantity="many">%1$d Показів відео</item>
+        <item quantity="other">%1$d Показів відео</item>
+    </plurals>
+    <string name="app_name">Partner</string>
+    <string name="bottom_preach">Проповідь</string>
+    <string name="bottom_report">Звіт</string>
+    <string name="bottom_notepad">Блокнот</string>
+    <string name="bottom_area">Територія</string>
+    <string name="serviceHeader">Час</string>
+    <string name="serviceDescription">Натисніть, щоб відкрити Partner</string>
+    <string name="preach_publication">Публікації</string>
+    <string name="preach_video">Відео</string>
+    <string name="preach_return">Повтроні</string>
+    <string name="preach_study">Вивчення</string>
+    <string name="preach_start">Старт</string>
+    <string name="preach_stop">Пауза</string>
+    <string name="preach_resume">Продовжити</string>
+    <string name="preach_finish">Завершити</string>
+    <string name="preach_save">Зберегти</string>
+    <string name="preach_cancel">Скасувати</string>
+    <string name="canceled">Скасавано</string>
+    <string name="preach_description">напишіть опис</string>
+    <string name="preach_saved">Збережено</string>
+    <string name="report_hours">%1$s годин(и)</string>
+    <string name="report_year_tittle">%s службовий рік</string>
+    <string name="preach_deleted">Вилучено</string>
+    <string name="simple_preach">"%1s: проповідував - "</string>
+    <string name="back">Назад</string>
+    <string name="send">Відправити</string>
+    <string name="preached">Проповідував</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="add">Додати</string>
+    <string name="new_item">Новий</string>
+    <string name="delete">Видалити</string>
+    <string name="are_you_sure">Ви впевнені?</string>
+    <string name="export_data">"Зберегти всі дані "</string>
+    <string name="import_data">Відновити всі дані</string>
+    <string name="backup_failed">Помилка при створенні резервної копії</string>
+    <string name="backup_created">Резервна копія створена</string>
+    <string name="backup_restore">"Увага: ВСІ поточні дані будуть безповоротно загублені і замінені на дані з резервної копії. "</string>
+    <string name="jwdroid_parse_error">Неможливо проаналізувати %1s файл</string>
+    <string name="backup_restored">Резервна копія успішно відновлена</string>
+    <string name="preach_save_zero">Час менше однієї хвилини не зберігається</string>
+</resources>
