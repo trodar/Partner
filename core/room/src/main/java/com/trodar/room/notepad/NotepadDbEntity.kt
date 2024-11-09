@@ -6,7 +6,7 @@ import com.trodar.common.Core
 import com.trodar.room.model.Notepad
 import java.util.Date
 
-@Entity(tableName = Core.databaseConst.NOTEPAD_TABLE_NAME)
+@Entity(tableName = "notepad_table")
 class NotepadDbEntity(
     @PrimaryKey(autoGenerate = true)
     override val id: Int,

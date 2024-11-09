@@ -10,10 +10,10 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface NotepadDao {
-    @Query("SELECT * FROM ${Core.databaseConst.NOTEPAD_TABLE_NAME}")
+    @Query("SELECT * FROM notepad_table")
     fun getList(): Flow<List<NotepadDbEntity>>
 
-    @Query("SELECT * FROM ${Core.databaseConst.NOTEPAD_TABLE_NAME} WHERE id= :id")
+    @Query("SELECT * FROM notepad_table WHERE id= :id")
     fun getItem(id: Int): Flow<NotepadDbEntity?>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -25,6 +25,6 @@ interface NotepadDao {
     @Delete
     suspend fun deleteNotepad(notepadDbEntity: NotepadDbEntity)
 
-    @Query("DELETE FROM ${Core.databaseConst.NOTEPAD_TABLE_NAME}")
+    @Query("DELETE FROM notepad_table")
     suspend fun deleteAll()
 }

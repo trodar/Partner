@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.hilt)
     alias(libs.plugins.jetbrains.kapt)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -62,6 +63,7 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.materialWindow)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.compose.runtime)
 
     implementation(platform(libs.androidx.compose.bom))
 

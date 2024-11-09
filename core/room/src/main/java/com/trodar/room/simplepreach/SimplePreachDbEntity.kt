@@ -9,7 +9,7 @@ import kotlinx.parcelize.Parcelize
 import java.util.Date
 
 @Parcelize
-@Entity(tableName = Core.databaseConst.SIMPLE_PREACH_TABLE_NAME)
+@Entity(tableName = "simple_preach_table")
 data class SimplePreachDbEntity(
     @PrimaryKey(autoGenerate = true)
     override val id: Int,

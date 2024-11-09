@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.jetbrains.kapt)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -68,6 +69,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.places)
     implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.compose.runtime)
 
     testImplementation(libs.junit)
     testImplementation(libs.androidx.compose.test.junit4)

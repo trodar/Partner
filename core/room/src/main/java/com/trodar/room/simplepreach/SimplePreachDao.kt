@@ -11,15 +11,15 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface SimplePreachDao {
 
-    @Query("Select * from ${Core.databaseConst.SIMPLE_PREACH_TABLE_NAME}" +
+    @Query("Select * from simple_preach_table" +
             " where strftime('%Y%m', datetime(date/1000, 'unixepoch')) = :date")
     fun getSimplePreachItem(date: String): Flow<SimplePreachDbEntity?>
 
-    @Query("Select * from ${Core.databaseConst.SIMPLE_PREACH_TABLE_NAME}" +
+    @Query("Select * from simple_preach_table" +
             " where strftime('%Y%m', datetime(date/1000, 'unixepoch')) between :minDate and :maxDate")
     fun getMonthsPeriodList(minDate: String, maxDate: String): Flow<List<SimplePreachDbEntity>>?
 
-    @Query("Select * from ${Core.databaseConst.SIMPLE_PREACH_TABLE_NAME}" )
+    @Query("Select * from simple_preach_table" )
     fun getAllData(): Flow<List<SimplePreachDbEntity>>?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -29,6 +29,6 @@ interface SimplePreachDao {
 
     @Delete
     suspend fun deleteSimplePreach(simplePreach: SimplePreachDbEntity)
-    @Query("DELETE FROM ${Core.databaseConst.SIMPLE_PREACH_TABLE_NAME}")
+    @Query("DELETE FROM simple_preach_table")
     suspend fun deleteAll()
 }

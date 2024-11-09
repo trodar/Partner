@@ -70,14 +70,14 @@ class ImportDataBase @AssistedInject constructor(
 
 
                 when (file.filename) {
-                    "${DataBaseConstant.PREACH_TABLE_NAME}${ExportConstant.FILE_EXT}" -> {
+                    "preach_table${ExportConstant.FILE_EXT}" -> {
                         loadPreachData(data)
                     }
 
-                    "${DataBaseConstant.NOTEPAD_TABLE_NAME}${ExportConstant.FILE_EXT}" -> {
+                    "notepad_table${ExportConstant.FILE_EXT}" -> {
                         loadNotepadData(data)
                     }
-                    "${DataBaseConstant.SIMPLE_PREACH_TABLE_NAME}${ExportConstant.FILE_EXT}" -> {
+                    "simple_preach_table${ExportConstant.FILE_EXT}" -> {
                         loadSimplePreachData(data)
                     }
                     session -> {

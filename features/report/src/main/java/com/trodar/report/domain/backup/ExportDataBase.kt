@@ -4,9 +4,6 @@ import android.os.Environment
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.trodar.common.constants.DataBaseConstant.NOTEPAD_TABLE_NAME
-import com.trodar.common.constants.DataBaseConstant.PREACH_TABLE_NAME
-import com.trodar.common.constants.DataBaseConstant.SIMPLE_PREACH_TABLE_NAME
 import com.trodar.common.constants.ExportConstant.FILE_EXT
 import com.trodar.room.NotepadRepository
 import com.trodar.room.PreachRepository
@@ -48,20 +45,20 @@ class ExportDataBase @AssistedInject constructor(
                 val preach = preachRepository.getAllData().firstOrNull()
                 if (!preach.isNullOrEmpty()) {
                     val preachJson = gson.toJson(preach)
-                    exportTable(preachJson, PREACH_TABLE_NAME)
+                    exportTable(preachJson, "preach_table")
                 }
 
                 val simplePreach = simplePreachRepository.getAllData()?.firstOrNull()
                 if (!simplePreach.isNullOrEmpty()) {
                     val simplePreachJson = gson.toJson(simplePreach)
-                    exportTable(simplePreachJson, SIMPLE_PREACH_TABLE_NAME)
+                    exportTable(simplePreachJson, "simple_preach_table")
                 }
 
                 val notepad = notepadRepository.getList().firstOrNull()
                 if (!notepad.isNullOrEmpty()) {
                     val notepadJson = gson.toJson(notepad)
                     Log.d("mack", notepadJson)
-                    exportTable(notepadJson, NOTEPAD_TABLE_NAME)
+                    exportTable(notepadJson, "notepad_table")
                 }
             }
         }

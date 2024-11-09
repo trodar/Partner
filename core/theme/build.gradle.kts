@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -42,4 +43,5 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.compose.runtime)
 }

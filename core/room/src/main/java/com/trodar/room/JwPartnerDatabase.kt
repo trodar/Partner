@@ -14,7 +14,7 @@ import com.trodar.room.simplepreach.SimplePreachDbEntity
 
 @Database(
     entities = [PreachDbEntity::class, SimplePreachDbEntity::class, NotepadDbEntity::class],
-    version = Core.databaseConst.DB_VERSION
+    version = 1
 )
 @TypeConverters(DateConverter::class)
 abstract class JwPartnerDatabase : RoomDatabase() {
